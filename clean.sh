@@ -31,7 +31,7 @@ set -euo pipefail
 #   SEÇÃO 2: LIMPEZA DE DIRETÓRIOS
 # ----------------------------------------------------
 
-    DIRS_TO_CLEAN=("totvs/licenseserver" "packages")
+    DIRS_TO_CLEAN=("totvs" "packages")
 
     print_info "Iniciando limpeza de arquivos não versionados..."
 
