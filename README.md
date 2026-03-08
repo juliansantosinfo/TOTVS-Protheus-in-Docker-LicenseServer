@@ -54,7 +54,7 @@ Baixe o binário do DbAccess e coloque nos diretório `packages/`:
 
 ```txt
 packages/
-├── 25-08-18-TOTVSLICENSE_3.7.0_LINUX.TAR.GZ
+├── 25-08-18-TOTVSLICENSE_3.6.2_LINUX.TAR.GZ
 ```
 
 **Arquivos necessários:**
@@ -126,7 +126,7 @@ Quando usando uma imagem base customizada que já contém os recursos do Protheu
 ```bash
 # No GitHub Actions, IMAGE_BASE é carregado automaticamente
 # Para build local com imagem customizada:
-export IMAGE_BASE=juliansantosinfo/imagebase:totvs-licenseserver-build_3.7.0
+export IMAGE_BASE=juliansantosinfo/imagebase:totvs-licenseserver-build_3.6.2
 ./build.sh
 ```
 
